@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(185, 204, 221);
+}
+
+h1 {
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
