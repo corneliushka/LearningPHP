@@ -1,5 +1,6 @@
-
-
+<?php
+    $money = null;
+?>
 
 
 <!DOCTYPE html>
@@ -18,12 +19,20 @@
     // <a href="https://github.com/becodeorg/BXL-Lovelace-3.9/blob/master/parcours/06-PHP/php-ex-loop.md">Instructions sur Git Hub </a> //
     
     <h2>Exercice 1</h2>
-    <p></p>
+    <p>
+        <?php 
+            for($money=0; $money <= 10; $money++) {
+                echo $money . "<br>";
+            }  
+        ?>
+    </p>
 
     <br>
 
     <h2>Exercice 2</h2>
-    <p></p>
+    <p>
+    
+    </p>
     
     <br>
 

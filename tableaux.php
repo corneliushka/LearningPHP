@@ -37,13 +37,9 @@
 
 <?php 
 
-    $mailingList = array (
-        
-    )
-    
-    
-
+    $mailingList = array ("Alex", "Max", "Dominique", "Claude", "Leslie", "Charlie", "Lou");
 ?> 
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -97,7 +93,11 @@
         </p>
 
         <h2>Exercice 4</h2>
-
+        <?php 
+            foreach ($mailingList as $destinataire) {
+                echo "Salut $destinataire, devine quoi ! Je me marie dans samedi dans deux semaines ! J'espère te compter parmi les invités ! Gros bisous :)" . "<br>"; 
+            }
+        ?>
     <!-- Camille se marie et doit envoyer des mails à ses amis.
 
     En utilisant ce tableau, faites en sorte que chaque personne de cette liste reçoit le même mail en faisant en sorte qu'il soit personnalisé.
